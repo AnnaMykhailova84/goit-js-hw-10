@@ -1,0 +1,52 @@
+.section-task {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+input[type="text"] {
+  font-size: 24px;
+  height: 40px;
+  width: 240px;
+  box-sizing: border-box;
+  border: 1px solid rgba(46, 47, 66, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
+  padding: 8px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.timer-task button {
+  font-size: 20px;
+  border-radius: 4px;
+  height: 40px;
+  width: 70px;
+  border: 1px solid rgba(46, 47, 66, 0.3);
+}
+.timer {
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-family: inherit;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.label {
+  font-size: 18px;
+  text-transform: uppercase;
+}
